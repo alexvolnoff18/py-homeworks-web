@@ -2,7 +2,8 @@ FROM python:3.8
 
 WORKDIR stocks_products
 
-COPY ./stocks_products
+COPY ../stocks_products
+COPY ../logistic
 
 RUN pip install -r /requirements.txt
 
